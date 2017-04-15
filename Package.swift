@@ -5,6 +5,6 @@ let package = Package(
   targets: [],
   dependencies: [
     .Package(url: "git@github.com:jindulys/SiYuanKit.git", Version(1,2,32)),
-    .Package(url: "https://github.com/honghaoz/Ji.git", majorVersion: 2), 
+    .Package(url: "https://github.com/tid-kijyun/Kanna.git", majorVersion: 2),
   ]
 )

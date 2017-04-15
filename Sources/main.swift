@@ -10,3 +10,7 @@ import Foundation
 
 print("Hello, World!")
 
+let testCompany = BlogParserTest(urlString: "test")
+testCompany.parse()
+
+

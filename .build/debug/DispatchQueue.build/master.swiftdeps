@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
-options: "a793f9edaec1b224ba7851dcc638647f"
-build_time: [545601072, 467866000]
-inputs:
-  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/DispatchQueue/GCDQueue.swift": [545600565, 0]
