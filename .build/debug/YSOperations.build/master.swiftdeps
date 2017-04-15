@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "aa9968a706436c177c938b08e6365b7a"
+build_time: [545603495, 457849000]
+inputs:
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/YSOperations/Conditions/OperationCondition.swift": [545600565, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/YSOperations/Observers/BlockObserver.swift": [545600565, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/YSOperations/Observers/OperationObserver.swift": [545600565, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/YSOperations/Operation Queue/ExclusivityController.swift": [545603489, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/YSOperations/Operation Queue/YSOperationQueue.swift": [545600565, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/YSOperations/YSOperations/BlockOperation.swift": [545600565, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/YSOperations/YSOperations/YSOperation.swift": [545600565, 0]

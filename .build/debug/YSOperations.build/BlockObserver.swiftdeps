@@ -1,0 +1,55 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockObserver"
+provides-nominal:
+- "V12YSOperations13BlockObserver"
+provides-member:
+- ["V12YSOperations13BlockObserver", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BlockObserver"
+- "Error"
+- "Operation"
+- "OperationObserver"
+- "Void"
+- "YSOperation"
+depends-member:
+- ["V12YSOperations13BlockObserver", "Error"]
+- ["V12YSOperations13BlockObserver", "Operation"]
+- ["V12YSOperations13BlockObserver", "Void"]
+- ["V12YSOperations13BlockObserver", "YSOperation"]
+- ["V12YSOperations13BlockObserver", "deinit"]
+- !private ["V12YSOperations13BlockObserver", "finishHandler"]
+- ["V12YSOperations13BlockObserver", "init"]
+- ["V12YSOperations13BlockObserver", "operation"]
+- ["V12YSOperations13BlockObserver", "operationDidFinish"]
+- ["V12YSOperations13BlockObserver", "operationDidStart"]
+- !private ["V12YSOperations13BlockObserver", "produceHandler"]
+- !private ["V12YSOperations13BlockObserver", "startHandler"]
+- !private ["P12YSOperations17OperationObserver", "finishHandler"]
+- ["P12YSOperations17OperationObserver", "operation"]
+- ["P12YSOperations17OperationObserver", "operationDidFinish"]
+- ["P12YSOperations17OperationObserver", "operationDidStart"]
+- !private ["P12YSOperations17OperationObserver", "produceHandler"]
+- !private ["P12YSOperations17OperationObserver", "startHandler"]
+- ["P12YSOperations17OperationObserver", ""]
+depends-nominal:
+- "V12YSOperations13BlockObserver"
+- "P12YSOperations17OperationObserver"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+interface-hash: "eb98ab4c0c24df6401fe59467017159b"

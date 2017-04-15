@@ -1,0 +1,12 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "SiYuanKit",
+      "reason": null,
+      "repositoryURL": "git@github.com:jindulys/SiYuanKit.git",
+      "version": "1.2.32"
+    }
+  ],
+  "version": 1
+}

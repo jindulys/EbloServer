@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "a1392131a1dc2b6a320b2ea57d236a01"
+build_time: [545604255, 885551000]
+inputs:
+  "/Users/yansongli/Desktop/scripts/EbloServer/Sources/main.swift": !dirty [545604249, 0]

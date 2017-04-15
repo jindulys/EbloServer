@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "3860643700f0684ad9399ece8aa88a41"
+build_time: [545601072, 468220000]
+inputs:
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/UI/Extension/UIViewExtensions.swift": [545600565, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/UI/StaticTableView/Row.swift": [545600565, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/UI/StaticTableView/Section.swift": [545600565, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/UI/StaticTableView/TableViewManager.swift": [545600565, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/UI/StaticTableView/Cells/ItemCell.swift": [545600565, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/UI/StaticTableView/Cells/StaticCellType.swift": [545600565, 0]
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/UI/StaticTableView/Cells/Value1Cell.swift": [545600565, 0]

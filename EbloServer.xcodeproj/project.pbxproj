@@ -7,30 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E2FB3EA1EA2AE8C0057C3B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2FB3E91EA2AE8C0057C3B2 /* main.swift */; };
+		OBJ_100 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* main.swift */; };
+		OBJ_102 /* YSOperations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* YSOperations.framework */; };
+		OBJ_103 /* UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* UI.framework */; };
+		OBJ_104 /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Utilities.framework */; };
+		OBJ_105 /* DispatchQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* DispatchQueue.framework */; };
+		OBJ_106 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Then.framework */; };
+		OBJ_53 /* OperationCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* OperationCondition.swift */; };
+		OBJ_54 /* BlockObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* BlockObserver.swift */; };
+		OBJ_55 /* OperationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* OperationObserver.swift */; };
+		OBJ_56 /* ExclusivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* ExclusivityController.swift */; };
+		OBJ_57 /* YSOperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* YSOperationQueue.swift */; };
+		OBJ_58 /* BlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* BlockOperation.swift */; };
+		OBJ_59 /* YSOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* YSOperation.swift */; };
+		OBJ_66 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* UIViewExtensions.swift */; };
+		OBJ_67 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Row.swift */; };
+		OBJ_68 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Section.swift */; };
+		OBJ_69 /* TableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* TableViewManager.swift */; };
+		OBJ_70 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* ItemCell.swift */; };
+		OBJ_71 /* StaticCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* StaticCellType.swift */; };
+		OBJ_72 /* Value1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Value1Cell.swift */; };
+		OBJ_79 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Time.swift */; };
+		OBJ_86 /* GCDQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* GCDQueue.swift */; };
+		OBJ_93 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Promise.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		0E2FB3E41EA2AE8C0057C3B2 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
+/* Begin PBXContainerItemProxy section */
+		0E2FB4101EA2BDDC0057C3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_48;
+			remoteInfo = YSOperations;
 		};
-/* End PBXCopyFilesBuildPhase section */
+		0E2FB4111EA2BDDC0057C3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_61;
+			remoteInfo = UI;
+		};
+		0E2FB4121EA2BDDC0057C3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_74;
+			remoteInfo = Utilities;
+		};
+		0E2FB4131EA2BDDC0057C3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_81;
+			remoteInfo = DispatchQueue;
+		};
+		0E2FB4141EA2BDDC0057C3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_88;
+			remoteInfo = Then;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E2FB3E61EA2AE8C0057C3B2 /* EbloServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EbloServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E2FB3E91EA2AE8C0057C3B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_14 /* OperationCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationCondition.swift; sourceTree = "<group>"; };
+		OBJ_16 /* BlockObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockObserver.swift; sourceTree = "<group>"; };
+		OBJ_17 /* OperationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationObserver.swift; sourceTree = "<group>"; };
+		OBJ_19 /* ExclusivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusivityController.swift; sourceTree = "<group>"; };
+		OBJ_20 /* YSOperationQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSOperationQueue.swift; sourceTree = "<group>"; };
+		OBJ_22 /* BlockOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockOperation.swift; sourceTree = "<group>"; };
+		OBJ_23 /* YSOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSOperation.swift; sourceTree = "<group>"; };
+		OBJ_26 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		OBJ_30 /* TableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewManager.swift; sourceTree = "<group>"; };
+		OBJ_32 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		OBJ_33 /* StaticCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticCellType.swift; sourceTree = "<group>"; };
+		OBJ_34 /* Value1Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value1Cell.swift; sourceTree = "<group>"; };
+		OBJ_36 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		OBJ_38 /* GCDQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDQueue.swift; sourceTree = "<group>"; };
+		OBJ_40 /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		OBJ_42 /* YSOperations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YSOperations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_43 /* UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_44 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_45 /* DispatchQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DispatchQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_46 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_47 /* EbloServer */ = {isa = PBXFileReference; lastKnownFileType = text; path = EbloServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E2FB3E31EA2AE8C0057C3B2 /* Frameworks */ = {
+		OBJ_101 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
+			files = (
+				OBJ_102 /* YSOperations.framework in Frameworks */,
+				OBJ_103 /* UI.framework in Frameworks */,
+				OBJ_104 /* Utilities.framework in Frameworks */,
+				OBJ_105 /* DispatchQueue.framework in Frameworks */,
+				OBJ_106 /* Then.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,225 +149,762 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E2FB3DD1EA2AE8C0057C3B2 = {
+		OBJ_10 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				0E2FB3E81EA2AE8C0057C3B2 /* EbloServer */,
-				0E2FB3E71EA2AE8C0057C3B2 /* Products */,
+				OBJ_11 /* SiYuanKit 1.2.32 */,
 			);
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		0E2FB3E71EA2AE8C0057C3B2 /* Products */ = {
+		OBJ_11 /* SiYuanKit 1.2.32 */ = {
 			isa = PBXGroup;
 			children = (
-				0E2FB3E61EA2AE8C0057C3B2 /* EbloServer */,
+				OBJ_12 /* YSOperations */,
+				OBJ_24 /* UI */,
+				OBJ_35 /* Utilities */,
+				OBJ_37 /* DispatchQueue */,
+				OBJ_39 /* Then */,
+			);
+			name = "SiYuanKit 1.2.32";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* YSOperations */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* Conditions */,
+				OBJ_15 /* Observers */,
+				OBJ_18 /* Operation Queue */,
+				OBJ_21 /* YSOperations */,
+			);
+			name = YSOperations;
+			path = ".build/checkouts/SiYuanKit.git--103458854881732762/Sources/YSOperations";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_13 /* Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_14 /* OperationCondition.swift */,
+			);
+			path = Conditions;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* BlockObserver.swift */,
+				OBJ_17 /* OperationObserver.swift */,
+			);
+			path = Observers;
+			sourceTree = "<group>";
+		};
+		OBJ_18 /* Operation Queue */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* ExclusivityController.swift */,
+				OBJ_20 /* YSOperationQueue.swift */,
+			);
+			path = "Operation Queue";
+			sourceTree = "<group>";
+		};
+		OBJ_21 /* YSOperations */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_22 /* BlockOperation.swift */,
+				OBJ_23 /* YSOperation.swift */,
+			);
+			path = YSOperations;
+			sourceTree = "<group>";
+		};
+		OBJ_24 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* Extension */,
+				OBJ_27 /* StaticTableView */,
+			);
+			name = UI;
+			path = ".build/checkouts/SiYuanKit.git--103458854881732762/Sources/UI";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_25 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* UIViewExtensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		OBJ_27 /* StaticTableView */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_28 /* Row.swift */,
+				OBJ_29 /* Section.swift */,
+				OBJ_30 /* TableViewManager.swift */,
+				OBJ_31 /* Cells */,
+			);
+			path = StaticTableView;
+			sourceTree = "<group>";
+		};
+		OBJ_31 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_32 /* ItemCell.swift */,
+				OBJ_33 /* StaticCellType.swift */,
+				OBJ_34 /* Value1Cell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		OBJ_35 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_36 /* Time.swift */,
+			);
+			name = Utilities;
+			path = ".build/checkouts/SiYuanKit.git--103458854881732762/Sources/Utilities";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_37 /* DispatchQueue */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_38 /* GCDQueue.swift */,
+			);
+			name = DispatchQueue;
+			path = ".build/checkouts/SiYuanKit.git--103458854881732762/Sources/DispatchQueue";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_39 /* Then */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_40 /* Promise.swift */,
+			);
+			name = Then;
+			path = ".build/checkouts/SiYuanKit.git--103458854881732762/Sources/Then";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_42 /* YSOperations.framework */,
+				OBJ_43 /* UI.framework */,
+				OBJ_44 /* Utilities.framework */,
+				OBJ_45 /* DispatchQueue.framework */,
+				OBJ_46 /* Then.framework */,
+				OBJ_47 /* EbloServer */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		0E2FB3E81EA2AE8C0057C3B2 /* EbloServer */ = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				0E2FB3E91EA2AE8C0057C3B2 /* main.swift */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_9 /* Tests */,
+				OBJ_10 /* Dependencies */,
+				OBJ_41 /* Products */,
 			);
-			path = EbloServer;
+			name = "";
 			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* main.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0E2FB3E51EA2AE8C0057C3B2 /* EbloServer */ = {
+		OBJ_48 /* YSOperations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E2FB3ED1EA2AE8C0057C3B2 /* Build configuration list for PBXNativeTarget "EbloServer" */;
+			buildConfigurationList = OBJ_49 /* Build configuration list for PBXNativeTarget "YSOperations" */;
 			buildPhases = (
-				0E2FB3E21EA2AE8C0057C3B2 /* Sources */,
-				0E2FB3E31EA2AE8C0057C3B2 /* Frameworks */,
-				0E2FB3E41EA2AE8C0057C3B2 /* CopyFiles */,
+				OBJ_52 /* Sources */,
+				OBJ_60 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = YSOperations;
+			productName = YSOperations;
+			productReference = OBJ_42 /* YSOperations.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_61 /* UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_62 /* Build configuration list for PBXNativeTarget "UI" */;
+			buildPhases = (
+				OBJ_65 /* Sources */,
+				OBJ_73 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UI;
+			productName = UI;
+			productReference = OBJ_43 /* UI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_74 /* Utilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_75 /* Build configuration list for PBXNativeTarget "Utilities" */;
+			buildPhases = (
+				OBJ_78 /* Sources */,
+				OBJ_80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Utilities;
+			productName = Utilities;
+			productReference = OBJ_44 /* Utilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_81 /* DispatchQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_82 /* Build configuration list for PBXNativeTarget "DispatchQueue" */;
+			buildPhases = (
+				OBJ_85 /* Sources */,
+				OBJ_87 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DispatchQueue;
+			productName = DispatchQueue;
+			productReference = OBJ_45 /* DispatchQueue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_88 /* Then */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_89 /* Build configuration list for PBXNativeTarget "Then" */;
+			buildPhases = (
+				OBJ_92 /* Sources */,
+				OBJ_94 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Then;
+			productName = Then;
+			productReference = OBJ_46 /* Then.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_95 /* EbloServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_96 /* Build configuration list for PBXNativeTarget "EbloServer" */;
+			buildPhases = (
+				OBJ_99 /* Sources */,
+				OBJ_101 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_107 /* PBXTargetDependency */,
+				OBJ_108 /* PBXTargetDependency */,
+				OBJ_109 /* PBXTargetDependency */,
+				OBJ_110 /* PBXTargetDependency */,
+				OBJ_111 /* PBXTargetDependency */,
+			);
 			name = EbloServer;
 			productName = EbloServer;
-			productReference = 0E2FB3E61EA2AE8C0057C3B2 /* EbloServer */;
+			productReference = OBJ_47 /* EbloServer */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0E2FB3DE1EA2AE8C0057C3B2 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "yansong li";
-				TargetAttributes = {
-					0E2FB3E51EA2AE8C0057C3B2 = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 655YRAVK2U;
-						ProvisioningStyle = Automatic;
-					};
-				};
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = 0E2FB3E11EA2AE8C0057C3B2 /* Build configuration list for PBXProject "EbloServer" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "EbloServer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0E2FB3DD1EA2AE8C0057C3B2;
-			productRefGroup = 0E2FB3E71EA2AE8C0057C3B2 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E2FB3E51EA2AE8C0057C3B2 /* EbloServer */,
+				OBJ_48 /* YSOperations */,
+				OBJ_61 /* UI */,
+				OBJ_74 /* Utilities */,
+				OBJ_81 /* DispatchQueue */,
+				OBJ_88 /* Then */,
+				OBJ_95 /* EbloServer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E2FB3E21EA2AE8C0057C3B2 /* Sources */ = {
+		OBJ_52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				0E2FB3EA1EA2AE8C0057C3B2 /* main.swift in Sources */,
+				OBJ_53 /* OperationCondition.swift in Sources */,
+				OBJ_54 /* BlockObserver.swift in Sources */,
+				OBJ_55 /* OperationObserver.swift in Sources */,
+				OBJ_56 /* ExclusivityController.swift in Sources */,
+				OBJ_57 /* YSOperationQueue.swift in Sources */,
+				OBJ_58 /* BlockOperation.swift in Sources */,
+				OBJ_59 /* YSOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_66 /* UIViewExtensions.swift in Sources */,
+				OBJ_67 /* Row.swift in Sources */,
+				OBJ_68 /* Section.swift in Sources */,
+				OBJ_69 /* TableViewManager.swift in Sources */,
+				OBJ_70 /* ItemCell.swift in Sources */,
+				OBJ_71 /* StaticCellType.swift in Sources */,
+				OBJ_72 /* Value1Cell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_79 /* Time.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_86 /* GCDQueue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_93 /* Promise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_100 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		OBJ_107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_48 /* YSOperations */;
+			targetProxy = 0E2FB4101EA2BDDC0057C3B2 /* PBXContainerItemProxy */;
+		};
+		OBJ_108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_61 /* UI */;
+			targetProxy = 0E2FB4111EA2BDDC0057C3B2 /* PBXContainerItemProxy */;
+		};
+		OBJ_109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_74 /* Utilities */;
+			targetProxy = 0E2FB4121EA2BDDC0057C3B2 /* PBXContainerItemProxy */;
+		};
+		OBJ_110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_81 /* DispatchQueue */;
+			targetProxy = 0E2FB4131EA2BDDC0057C3B2 /* PBXContainerItemProxy */;
+		};
+		OBJ_111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_88 /* Then */;
+			targetProxy = 0E2FB4141EA2BDDC0057C3B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		0E2FB3EB1EA2AE8C0057C3B2 /* Debug */ = {
+		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		0E2FB3EC1EA2AE8C0057C3B2 /* Release */ = {
+		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		0E2FB3EE1EA2AE8C0057C3B2 /* Debug */ = {
+		OBJ_50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 655YRAVK2U;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/YSOperations_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = YSOperations;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = YSOperations;
 			};
 			name = Debug;
 		};
-		0E2FB3EF1EA2AE8C0057C3B2 /* Release */ = {
+		OBJ_51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 655YRAVK2U;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/YSOperations_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = YSOperations;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = YSOperations;
+			};
+			name = Release;
+		};
+		OBJ_63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/UI_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = UI;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = UI;
+			};
+			name = Debug;
+		};
+		OBJ_64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/UI_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = UI;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = UI;
+			};
+			name = Release;
+		};
+		OBJ_76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/Utilities_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Utilities;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Utilities;
+			};
+			name = Debug;
+		};
+		OBJ_77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/Utilities_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Utilities;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Utilities;
+			};
+			name = Release;
+		};
+		OBJ_83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/DispatchQueue_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = DispatchQueue;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = DispatchQueue;
+			};
+			name = Debug;
+		};
+		OBJ_84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/DispatchQueue_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = DispatchQueue;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = DispatchQueue;
+			};
+			name = Release;
+		};
+		OBJ_90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/Then_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Then;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Then;
+			};
+			name = Debug;
+		};
+		OBJ_91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/Then_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Then;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Then;
+			};
+			name = Release;
+		};
+		OBJ_97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/EbloServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = EbloServer;
+			};
+			name = Debug;
+		};
+		OBJ_98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EbloServer.xcodeproj/EbloServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = EbloServer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E2FB3E11EA2AE8C0057C3B2 /* Build configuration list for PBXProject "EbloServer" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "EbloServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E2FB3EB1EA2AE8C0057C3B2 /* Debug */,
-				0E2FB3EC1EA2AE8C0057C3B2 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		0E2FB3ED1EA2AE8C0057C3B2 /* Build configuration list for PBXNativeTarget "EbloServer" */ = {
+		OBJ_49 /* Build configuration list for PBXNativeTarget "YSOperations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E2FB3EE1EA2AE8C0057C3B2 /* Debug */,
-				0E2FB3EF1EA2AE8C0057C3B2 /* Release */,
+				OBJ_50 /* Debug */,
+				OBJ_51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_62 /* Build configuration list for PBXNativeTarget "UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_63 /* Debug */,
+				OBJ_64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_75 /* Build configuration list for PBXNativeTarget "Utilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_76 /* Debug */,
+				OBJ_77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_82 /* Build configuration list for PBXNativeTarget "DispatchQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_83 /* Debug */,
+				OBJ_84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_89 /* Build configuration list for PBXNativeTarget "Then" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_90 /* Debug */,
+				OBJ_91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_96 /* Build configuration list for PBXNativeTarget "EbloServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_97 /* Debug */,
+				OBJ_98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0E2FB3DE1EA2AE8C0057C3B2 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }

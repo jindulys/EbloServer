@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "4a3fee7caffffc77527c54ee2f05bf01"
+build_time: [545601072, 468150000]
+inputs:
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/Then/Promise.swift": [545600565, 0]

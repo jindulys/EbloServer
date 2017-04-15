@@ -1,0 +1,374 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "YSOperationQueueDelegate"
+- "YSOperationQueue"
+provides-nominal:
+- "P12YSOperations24YSOperationQueueDelegate"
+- "C12YSOperations16YSOperationQueue"
+provides-member:
+- ["P12YSOperations24YSOperationQueueDelegate", ""]
+- ["C12YSOperations16YSOperationQueue", ""]
+provides-dynamic-lookup:
+- "addOperation"
+- "delegate"
+- "operationQueue"
+depends-top-level:
+- !private "!"
+- "Array"
+- !private "BlockObserver"
+- "CastingPrecedence"
+- "Error"
+- !private "ExclusivityController"
+- "NSObjectProtocol"
+- "Operation"
+- "OperationQueue"
+- !private "String"
+- "StringLiteralType"
+- !private "YSOperation"
+- "YSOperationQueue"
+- "YSOperationQueueDelegate"
+depends-member:
+- !private ["Ps9AnyObject", "BlockObserver"]
+- !private ["Ps9AnyObject", "ExclusivityController"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "addCompletionBlock"]
+- !private ["Ps9AnyObject", "addDependency"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "addOperation"]
+- !private ["Ps9AnyObject", "conditions"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "dependencies"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "remove"]
+- !private ["Ps9AnyObject", "removeDependency"]
+- !private ["Ps9AnyObject", "sharedExclusivityController"]
+- !private ["Ps9AnyObject", "willEnqueue"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "flatMap"]
+- !private ["Ps23BidirectionalCollection", "forEach"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["V12YSOperations13BlockObserver", "deinit"]
+- !private ["V12YSOperations13BlockObserver", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "BlockObserver"]
+- !private ["Ps7CVarArg", "ExclusivityController"]
+- !private ["Ps7CVarArg", "addCompletionBlock"]
+- !private ["Ps7CVarArg", "addDependency"]
+- !private ["Ps7CVarArg", "addObserver"]
+- !private ["Ps7CVarArg", "addOperation"]
+- !private ["Ps7CVarArg", "conditions"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "dependencies"]
+- !private ["Ps7CVarArg", "flatMap"]
+- !private ["Ps7CVarArg", "forEach"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "removeDependency"]
+- !private ["Ps7CVarArg", "willEnqueue"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "flatMap"]
+- !private ["Ps10Collection", "forEach"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "BlockObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "ExclusivityController"]
+- !private ["Ps28CustomDebugStringConvertible", "addCompletionBlock"]
+- !private ["Ps28CustomDebugStringConvertible", "addDependency"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "addOperation"]
+- !private ["Ps28CustomDebugStringConvertible", "conditions"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "dependencies"]
+- !private ["Ps28CustomDebugStringConvertible", "flatMap"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "removeDependency"]
+- !private ["Ps28CustomDebugStringConvertible", "willEnqueue"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "flatMap"]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "BlockObserver"]
+- !private ["Ps23CustomStringConvertible", "ExclusivityController"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addCompletionBlock"]
+- !private ["Ps23CustomStringConvertible", "addDependency"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "addOperation"]
+- !private ["Ps23CustomStringConvertible", "conditions"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "dependencies"]
+- !private ["Ps23CustomStringConvertible", "flatMap"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "removeDependency"]
+- !private ["Ps23CustomStringConvertible", "willEnqueue"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "BlockObserver"]
+- !private ["Ps9Equatable", "ExclusivityController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addCompletionBlock"]
+- !private ["Ps9Equatable", "addDependency"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "addOperation"]
+- !private ["Ps9Equatable", "conditions"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "dependencies"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "removeDependency"]
+- !private ["Ps9Equatable", "willEnqueue"]
+- ["Ps9Equatable", ""]
+- !private ["C12YSOperations21ExclusivityController", "add"]
+- !private ["C12YSOperations21ExclusivityController", "remove"]
+- !private ["C12YSOperations21ExclusivityController", "sharedExclusivityController"]
+- !private ["Ps25ExpressibleByArrayLiteral", "flatMap"]
+- !private ["Ps25ExpressibleByArrayLiteral", "forEach"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "BlockObserver"]
+- !private ["Ps8Hashable", "ExclusivityController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addCompletionBlock"]
+- !private ["Ps8Hashable", "addDependency"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "addOperation"]
+- !private ["Ps8Hashable", "conditions"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "dependencies"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "removeDependency"]
+- !private ["Ps8Hashable", "willEnqueue"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "flatMap"]
+- !private ["Ps17MutableCollection", "forEach"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "BlockObserver"]
+- !private ["CSo8NSObject", "ExclusivityController"]
+- ["CSo8NSObject", "Operation"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "YSOperation"]
+- ["CSo8NSObject", "YSOperationQueueDelegate"]
+- !private ["CSo8NSObject", "addCompletionBlock"]
+- !private ["CSo8NSObject", "addDependency"]
+- !private ["CSo8NSObject", "addObserver"]
+- ["CSo8NSObject", "addOperation"]
+- !private ["CSo8NSObject", "conditions"]
+- ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dependencies"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "removeDependency"]
+- !private ["CSo8NSObject", "willEnqueue"]
+- !private ["PSo16NSObjectProtocol", "BlockObserver"]
+- ["PSo16NSObjectProtocol", "Error"]
+- !private ["PSo16NSObjectProtocol", "ExclusivityController"]
+- ["PSo16NSObjectProtocol", "Operation"]
+- ["PSo16NSObjectProtocol", "YSOperationQueue"]
+- !private ["PSo16NSObjectProtocol", "addCompletionBlock"]
+- !private ["PSo16NSObjectProtocol", "addDependency"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "addOperation"]
+- !private ["PSo16NSObjectProtocol", "conditions"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dependencies"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "operationQueue"]
+- !private ["PSo16NSObjectProtocol", "removeDependency"]
+- !private ["PSo16NSObjectProtocol", "willEnqueue"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo9Operation", "addCompletionBlock"]
+- !private ["CSo9Operation", "addDependency"]
+- !private ["CSo9Operation", "addObserver"]
+- !private ["CSo9Operation", "conditions"]
+- !private ["CSo9Operation", "dependencies"]
+- !private ["CSo9Operation", "removeDependency"]
+- !private ["CSo9Operation", "willEnqueue"]
+- !private ["P12YSOperations18OperationCondition", "dependencyFor"]
+- !private ["P12YSOperations18OperationCondition", "isMutuallyExclusive"]
+- !private ["P12YSOperations17OperationObserver", "init"]
+- !private ["CSo14OperationQueue", "BlockObserver"]
+- !private ["CSo14OperationQueue", "ExclusivityController"]
+- ["CSo14OperationQueue", "Operation"]
+- !private ["CSo14OperationQueue", "String"]
+- !private ["CSo14OperationQueue", "YSOperation"]
+- ["CSo14OperationQueue", "YSOperationQueueDelegate"]
+- ["CSo14OperationQueue", "addOperation"]
+- ["CSo14OperationQueue", "delegate"]
+- ["CSo14OperationQueue", "init"]
+- ["CSo14OperationQueue", ""]
+- !private ["Ps22RandomAccessCollection", "flatMap"]
+- !private ["Ps22RandomAccessCollection", "forEach"]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "flatMap"]
+- !private ["Ps26RangeReplaceableCollection", "forEach"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps8Sequence", "flatMap"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["C12YSOperations11YSOperation", "addDependency"]
+- !private ["C12YSOperations11YSOperation", "addObserver"]
+- !private ["C12YSOperations11YSOperation", "conditions"]
+- !private ["C12YSOperations11YSOperation", "willEnqueue"]
+- !private ["C12YSOperations16YSOperationQueue", "BlockObserver"]
+- !private ["C12YSOperations16YSOperationQueue", "ExclusivityController"]
+- ["C12YSOperations16YSOperationQueue", "Operation"]
+- !private ["C12YSOperations16YSOperationQueue", "String"]
+- !private ["C12YSOperations16YSOperationQueue", "YSOperation"]
+- ["C12YSOperations16YSOperationQueue", "YSOperationQueueDelegate"]
+- ["C12YSOperations16YSOperationQueue", "addOperation"]
+- ["C12YSOperations16YSOperationQueue", "deinit"]
+- ["C12YSOperations16YSOperationQueue", "delegate"]
+- ["C12YSOperations16YSOperationQueue", "init"]
+- ["P12YSOperations24YSOperationQueueDelegate", "Error"]
+- ["P12YSOperations24YSOperationQueueDelegate", "Operation"]
+- ["P12YSOperations24YSOperationQueueDelegate", "YSOperationQueue"]
+- ["P12YSOperations24YSOperationQueueDelegate", "operationQueue"]
+- !private ["Ps14_ArrayProtocol", "flatMap"]
+- !private ["Ps14_ArrayProtocol", "forEach"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps23_BidirectionalIndexable", "flatMap"]
+- !private ["Ps23_BidirectionalIndexable", "forEach"]
+- !private ["Ps23_BidirectionalIndexable", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "flatMap"]
+- !private ["Ps24_DestructorSafeContainer", "forEach"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "BlockObserver"]
+- !private ["Ps9_Hashable", "ExclusivityController"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addCompletionBlock"]
+- !private ["Ps9_Hashable", "addDependency"]
+- !private ["Ps9_Hashable", "addObserver"]
+- !private ["Ps9_Hashable", "addOperation"]
+- !private ["Ps9_Hashable", "conditions"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "dependencies"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "removeDependency"]
+- !private ["Ps9_Hashable", "willEnqueue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "flatMap"]
+- !private ["Ps10_Indexable", "forEach"]
+- !private ["Ps10_Indexable", "isEmpty"]
+- !private ["Ps14_IndexableBase", "flatMap"]
+- !private ["Ps14_IndexableBase", "forEach"]
+- !private ["Ps14_IndexableBase", "isEmpty"]
+- !private ["Ps17_MutableIndexable", "flatMap"]
+- !private ["Ps17_MutableIndexable", "forEach"]
+- !private ["Ps17_MutableIndexable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "flatMap"]
+- !private ["Ps21_ObjectiveCBridgeable", "forEach"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps22_RandomAccessIndexable", "flatMap"]
+- !private ["Ps22_RandomAccessIndexable", "forEach"]
+- !private ["Ps22_RandomAccessIndexable", "isEmpty"]
+- !private ["Ps26_RangeReplaceableIndexable", "flatMap"]
+- !private ["Ps26_RangeReplaceableIndexable", "forEach"]
+- !private ["Ps26_RangeReplaceableIndexable", "isEmpty"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "V12YSOperations13BlockObserver"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "C12YSOperations21ExclusivityController"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo9Operation"
+- !private "P12YSOperations18OperationCondition"
+- !private "P12YSOperations17OperationObserver"
+- "CSo14OperationQueue"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "C12YSOperations11YSOperation"
+- "C12YSOperations16YSOperationQueue"
+- "P12YSOperations24YSOperationQueueDelegate"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+interface-hash: "b973a56c0e980767b033d15ac11cf57d"

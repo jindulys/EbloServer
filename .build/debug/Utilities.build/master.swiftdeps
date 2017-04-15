@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "4de9428665f3cf548910e7ade5ae7cfb"
+build_time: [545604229, 960159000]
+inputs:
+  "/Users/yansongli/Desktop/scripts/EbloServer/.build/checkouts/SiYuanKit.git--103458854881732762/Sources/Utilities/Time.swift": [545604224, 0]

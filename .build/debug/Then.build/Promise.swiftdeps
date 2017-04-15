@@ -1,0 +1,196 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PromiseState"
+- "EmptyPromise"
+- "Promise"
+- "=="
+provides-nominal:
+- "O4Then12PromiseState"
+- "C4Then7Promise"
+provides-member:
+- ["O4Then12PromiseState", ""]
+- ["C4Then7Promise", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "=="
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "EmptyPromise"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Promise"
+- "PromiseState"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "Promise"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "failBlock"]
+- !private ["Ps9AnyObject", "finallyBlock"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "onError"]
+- !private ["Ps9AnyObject", "passAlongFirstPromiseStartFunctionAndStateTo"]
+- !private ["Ps9AnyObject", "prePromiseStart"]
+- !private ["Ps9AnyObject", "prePromiseStarted"]
+- !private ["Ps9AnyObject", "promiseCallBack"]
+- !private ["Ps9AnyObject", "promiseStarted"]
+- !private ["Ps9AnyObject", "registerNextPromise"]
+- !private ["Ps9AnyObject", "registerSuccess"]
+- !private ["Ps9AnyObject", "registerThen"]
+- !private ["Ps9AnyObject", "rejectPromise"]
+- !private ["Ps9AnyObject", "resolvePromise"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "startPromiseIfNeeded"]
+- !private ["Ps9AnyObject", "state"]
+- !private ["Ps9AnyObject", "successBlock"]
+- !private ["Ps9AnyObject", "then"]
+- !private ["Ps9AnyObject", "tryPreStartPromise"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "Rejected"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "Rejected"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps9Equatable", "FulFilled"]
+- ["Ps9Equatable", "Pending"]
+- !private ["Ps9Equatable", "Rejected"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "Rejected"]
+- !private ["Ps8Hashable", "FulFilled"]
+- ["Ps8Hashable", "Pending"]
+- !private ["Ps8Hashable", "Rejected"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Sq", "Rejected"]
+- ["C4Then7Promise", "Error"]
+- ["C4Then7Promise", "Promise"]
+- ["C4Then7Promise", "PromiseCallBack"]
+- ["C4Then7Promise", "PromiseState"]
+- ["C4Then7Promise", "RejectCallBack"]
+- ["C4Then7Promise", "ResolveCallBack"]
+- ["C4Then7Promise", "T"]
+- ["C4Then7Promise", "Void"]
+- ["C4Then7Promise", "deinit"]
+- !private ["C4Then7Promise", "error"]
+- !private ["C4Then7Promise", "failBlock"]
+- !private ["C4Then7Promise", "finallyBlock"]
+- ["C4Then7Promise", "init"]
+- ["C4Then7Promise", "onError"]
+- !private ["C4Then7Promise", "passAlongFirstPromiseStartFunctionAndStateTo"]
+- ["C4Then7Promise", "prePromiseStart"]
+- ["C4Then7Promise", "prePromiseStarted"]
+- !private ["C4Then7Promise", "promiseCallBack"]
+- !private ["C4Then7Promise", "promiseStarted"]
+- !private ["C4Then7Promise", "registerNextPromise"]
+- !private ["C4Then7Promise", "registerSuccess"]
+- ["C4Then7Promise", "registerThen"]
+- !private ["C4Then7Promise", "rejectPromise"]
+- !private ["C4Then7Promise", "resolvePromise"]
+- ["C4Then7Promise", "start"]
+- !private ["C4Then7Promise", "startPromiseIfNeeded"]
+- !private ["C4Then7Promise", "state"]
+- !private ["C4Then7Promise", "successBlock"]
+- ["C4Then7Promise", "then"]
+- !private ["C4Then7Promise", "tryPreStartPromise"]
+- !private ["C4Then7Promise", "value"]
+- ["O4Then12PromiseState", "=="]
+- ["O4Then12PromiseState", "FulFilled"]
+- ["O4Then12PromiseState", "Pending"]
+- ["O4Then12PromiseState", "Rejected"]
+- ["O4Then12PromiseState", "_toAnyHashable"]
+- ["O4Then12PromiseState", "deinit"]
+- ["O4Then12PromiseState", "hashValue"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "FulFilled"]
+- ["Ps9_Hashable", "Pending"]
+- !private ["Ps9_Hashable", "Rejected"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Rejected"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "Rejected"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Sq"
+- "C4Then7Promise"
+- "O4Then12PromiseState"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+interface-hash: "ce67300d304e81c36d33aff2e8ca7482"

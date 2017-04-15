@@ -1,0 +1,171 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OperationBlock"
+- "BlockOperation"
+provides-nominal:
+- "C12YSOperations14BlockOperation"
+provides-member:
+- ["C12YSOperations14BlockOperation", ""]
+provides-dynamic-lookup:
+- "execute"
+- "finished"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BlockOperation"
+- !private "DispatchQueue"
+- "Error"
+- "OperationBlock"
+- !private "StringLiteralType"
+- "Void"
+- "YSOperation"
+depends-member:
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "block"]
+- !private ["Ps9AnyObject", "finish"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", ""]
+- !private ["C12YSOperations14BlockOperation", "DispatchQueue"]
+- ["C12YSOperations14BlockOperation", "Error"]
+- ["C12YSOperations14BlockOperation", "OperationBlock"]
+- ["C12YSOperations14BlockOperation", "Void"]
+- !private ["C12YSOperations14BlockOperation", "block"]
+- ["C12YSOperations14BlockOperation", "deinit"]
+- ["C12YSOperations14BlockOperation", "execute"]
+- !private ["C12YSOperations14BlockOperation", "finish"]
+- ["C12YSOperations14BlockOperation", "finished"]
+- ["C12YSOperations14BlockOperation", "init"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "block"]
+- !private ["Ps7CVarArg", "finish"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "block"]
+- !private ["Ps28CustomDebugStringConvertible", "finish"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "block"]
+- !private ["Ps23CustomStringConvertible", "finish"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "block"]
+- !private ["Ps9Equatable", "finish"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "block"]
+- !private ["Ps8Hashable", "finish"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", ""]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "OperationBlock"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "async"]
+- ["CSo8NSObject", "block"]
+- ["CSo8NSObject", "execute"]
+- !private ["CSo8NSObject", "finish"]
+- ["CSo8NSObject", "finished"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "main"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "block"]
+- !private ["PSo16NSObjectProtocol", "finish"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- !private ["CSo9Operation", "DispatchQueue"]
+- ["CSo9Operation", "Error"]
+- ["CSo9Operation", "OperationBlock"]
+- ["CSo9Operation", "Void"]
+- ["CSo9Operation", "block"]
+- ["CSo9Operation", "execute"]
+- !private ["CSo9Operation", "finish"]
+- ["CSo9Operation", "finished"]
+- ["CSo9Operation", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["C12YSOperations11YSOperation", "DispatchQueue"]
+- ["C12YSOperations11YSOperation", "Error"]
+- ["C12YSOperations11YSOperation", "OperationBlock"]
+- ["C12YSOperations11YSOperation", "Void"]
+- ["C12YSOperations11YSOperation", "block"]
+- ["C12YSOperations11YSOperation", "execute"]
+- !private ["C12YSOperations11YSOperation", "finish"]
+- ["C12YSOperations11YSOperation", "finished"]
+- ["C12YSOperations11YSOperation", "init"]
+- ["C12YSOperations11YSOperation", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "block"]
+- !private ["Ps9_Hashable", "finish"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C12YSOperations14BlockOperation"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo9OS_object"
+- "CSo9Operation"
+- !private "Vs12StaticString"
+- "C12YSOperations11YSOperation"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+interface-hash: "ea528b3391744be6f223f3506fe183b6"
