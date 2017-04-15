@@ -7,139 +7,162 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_100 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* main.swift */; };
-		OBJ_102 /* YSOperations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* YSOperations.framework */; };
-		OBJ_103 /* UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* UI.framework */; };
-		OBJ_104 /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Utilities.framework */; };
-		OBJ_105 /* DispatchQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* DispatchQueue.framework */; };
-		OBJ_106 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Then.framework */; };
-		OBJ_53 /* OperationCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* OperationCondition.swift */; };
-		OBJ_54 /* BlockObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* BlockObserver.swift */; };
-		OBJ_55 /* OperationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* OperationObserver.swift */; };
-		OBJ_56 /* ExclusivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* ExclusivityController.swift */; };
-		OBJ_57 /* YSOperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* YSOperationQueue.swift */; };
-		OBJ_58 /* BlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* BlockOperation.swift */; };
-		OBJ_59 /* YSOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* YSOperation.swift */; };
-		OBJ_66 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* UIViewExtensions.swift */; };
-		OBJ_67 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Row.swift */; };
-		OBJ_68 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Section.swift */; };
-		OBJ_69 /* TableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* TableViewManager.swift */; };
-		OBJ_70 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* ItemCell.swift */; };
-		OBJ_71 /* StaticCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* StaticCellType.swift */; };
-		OBJ_72 /* Value1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Value1Cell.swift */; };
-		OBJ_79 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Time.swift */; };
-		OBJ_86 /* GCDQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* GCDQueue.swift */; };
-		OBJ_93 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Promise.swift */; };
+		OBJ_106 /* Ji-SPM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Ji-SPM.swift */; };
+		OBJ_107 /* JiHelper-SPM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* JiHelper-SPM.swift */; };
+		OBJ_108 /* JiNode-SPM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* JiNode-SPM.swift */; };
+		OBJ_115 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* main.swift */; };
+		OBJ_117 /* YSOperations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* YSOperations.framework */; };
+		OBJ_118 /* UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* UI.framework */; };
+		OBJ_119 /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Utilities.framework */; };
+		OBJ_120 /* DispatchQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* DispatchQueue.framework */; };
+		OBJ_121 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Then.framework */; };
+		OBJ_122 /* Ji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Ji.framework */; };
+		OBJ_59 /* OperationCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* OperationCondition.swift */; };
+		OBJ_60 /* BlockObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* BlockObserver.swift */; };
+		OBJ_61 /* OperationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* OperationObserver.swift */; };
+		OBJ_62 /* ExclusivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ExclusivityController.swift */; };
+		OBJ_63 /* YSOperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* YSOperationQueue.swift */; };
+		OBJ_64 /* BlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* BlockOperation.swift */; };
+		OBJ_65 /* YSOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* YSOperation.swift */; };
+		OBJ_72 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* UIViewExtensions.swift */; };
+		OBJ_73 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Row.swift */; };
+		OBJ_74 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Section.swift */; };
+		OBJ_75 /* TableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* TableViewManager.swift */; };
+		OBJ_76 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ItemCell.swift */; };
+		OBJ_77 /* StaticCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* StaticCellType.swift */; };
+		OBJ_78 /* Value1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Value1Cell.swift */; };
+		OBJ_85 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Time.swift */; };
+		OBJ_92 /* GCDQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* GCDQueue.swift */; };
+		OBJ_99 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Promise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E2FB4101EA2BDDC0057C3B2 /* PBXContainerItemProxy */ = {
+		0E2FB41A1EA2C58A0057C3B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_48;
+			remoteGlobalIDString = OBJ_54;
 			remoteInfo = YSOperations;
 		};
-		0E2FB4111EA2BDDC0057C3B2 /* PBXContainerItemProxy */ = {
+		0E2FB41B1EA2C58A0057C3B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_61;
+			remoteGlobalIDString = OBJ_67;
 			remoteInfo = UI;
 		};
-		0E2FB4121EA2BDDC0057C3B2 /* PBXContainerItemProxy */ = {
+		0E2FB41C1EA2C58A0057C3B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_74;
+			remoteGlobalIDString = OBJ_80;
 			remoteInfo = Utilities;
 		};
-		0E2FB4131EA2BDDC0057C3B2 /* PBXContainerItemProxy */ = {
+		0E2FB41D1EA2C58A0057C3B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_81;
+			remoteGlobalIDString = OBJ_87;
 			remoteInfo = DispatchQueue;
 		};
-		0E2FB4141EA2BDDC0057C3B2 /* PBXContainerItemProxy */ = {
+		0E2FB41E1EA2C58A0057C3B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_88;
+			remoteGlobalIDString = OBJ_94;
 			remoteInfo = Then;
+		};
+		0E2FB41F1EA2C58A0057C3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_101;
+			remoteInfo = Ji;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		OBJ_14 /* OperationCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationCondition.swift; sourceTree = "<group>"; };
-		OBJ_16 /* BlockObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockObserver.swift; sourceTree = "<group>"; };
-		OBJ_17 /* OperationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationObserver.swift; sourceTree = "<group>"; };
-		OBJ_19 /* ExclusivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusivityController.swift; sourceTree = "<group>"; };
-		OBJ_20 /* YSOperationQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSOperationQueue.swift; sourceTree = "<group>"; };
-		OBJ_22 /* BlockOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockOperation.swift; sourceTree = "<group>"; };
-		OBJ_23 /* YSOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSOperation.swift; sourceTree = "<group>"; };
-		OBJ_26 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
-		OBJ_28 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
-		OBJ_29 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
-		OBJ_30 /* TableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewManager.swift; sourceTree = "<group>"; };
-		OBJ_32 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
-		OBJ_33 /* StaticCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticCellType.swift; sourceTree = "<group>"; };
-		OBJ_34 /* Value1Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value1Cell.swift; sourceTree = "<group>"; };
-		OBJ_36 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
-		OBJ_38 /* GCDQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDQueue.swift; sourceTree = "<group>"; };
-		OBJ_40 /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
-		OBJ_42 /* YSOperations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YSOperations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_43 /* UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_44 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_45 /* DispatchQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DispatchQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_46 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_47 /* EbloServer */ = {isa = PBXFileReference; lastKnownFileType = text; path = EbloServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_12 /* Ji-SPM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ji-SPM.swift"; sourceTree = "<group>"; };
+		OBJ_13 /* JiHelper-SPM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JiHelper-SPM.swift"; sourceTree = "<group>"; };
+		OBJ_14 /* JiNode-SPM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JiNode-SPM.swift"; sourceTree = "<group>"; };
+		OBJ_19 /* OperationCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationCondition.swift; sourceTree = "<group>"; };
+		OBJ_21 /* BlockObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockObserver.swift; sourceTree = "<group>"; };
+		OBJ_22 /* OperationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationObserver.swift; sourceTree = "<group>"; };
+		OBJ_24 /* ExclusivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusivityController.swift; sourceTree = "<group>"; };
+		OBJ_25 /* YSOperationQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSOperationQueue.swift; sourceTree = "<group>"; };
+		OBJ_27 /* BlockOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockOperation.swift; sourceTree = "<group>"; };
+		OBJ_28 /* YSOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSOperation.swift; sourceTree = "<group>"; };
+		OBJ_31 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		OBJ_34 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		OBJ_35 /* TableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewManager.swift; sourceTree = "<group>"; };
+		OBJ_37 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		OBJ_38 /* StaticCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticCellType.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Value1Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value1Cell.swift; sourceTree = "<group>"; };
+		OBJ_41 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		OBJ_43 /* GCDQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDQueue.swift; sourceTree = "<group>"; };
+		OBJ_45 /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		OBJ_47 /* YSOperations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YSOperations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_48 /* UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_49 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_50 /* DispatchQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DispatchQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_51 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_52 /* Ji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Ji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_53 /* EbloServer */ = {isa = PBXFileReference; lastKnownFileType = text; path = EbloServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_101 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_102 /* YSOperations.framework in Frameworks */,
-				OBJ_103 /* UI.framework in Frameworks */,
-				OBJ_104 /* Utilities.framework in Frameworks */,
-				OBJ_105 /* DispatchQueue.framework in Frameworks */,
-				OBJ_106 /* Then.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_60 /* Frameworks */ = {
+		OBJ_100 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_73 /* Frameworks */ = {
+		OBJ_109 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_80 /* Frameworks */ = {
+		OBJ_116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_117 /* YSOperations.framework in Frameworks */,
+				OBJ_118 /* UI.framework in Frameworks */,
+				OBJ_119 /* Utilities.framework in Frameworks */,
+				OBJ_120 /* DispatchQueue.framework in Frameworks */,
+				OBJ_121 /* Then.framework in Frameworks */,
+				OBJ_122 /* Ji.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_87 /* Frameworks */ = {
+		OBJ_79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_94 /* Frameworks */ = {
+		OBJ_86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -152,145 +175,167 @@
 		OBJ_10 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* SiYuanKit 1.2.32 */,
+				OBJ_11 /* Ji 2.0.1 */,
+				OBJ_15 /* CLibXML2 0.6.0 */,
+				OBJ_16 /* SiYuanKit 1.2.32 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_11 /* SiYuanKit 1.2.32 */ = {
+		OBJ_11 /* Ji 2.0.1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* YSOperations */,
-				OBJ_24 /* UI */,
-				OBJ_35 /* Utilities */,
-				OBJ_37 /* DispatchQueue */,
-				OBJ_39 /* Then */,
+				OBJ_12 /* Ji-SPM.swift */,
+				OBJ_13 /* JiHelper-SPM.swift */,
+				OBJ_14 /* JiNode-SPM.swift */,
+			);
+			name = "Ji 2.0.1";
+			path = ".build/checkouts/Ji.git--8282269443409137257/Source";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_15 /* CLibXML2 0.6.0 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CLibXML2 0.6.0";
+			path = ".build/checkouts/CLibXML2.git-5012515159225181376";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* SiYuanKit 1.2.32 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* YSOperations */,
+				OBJ_29 /* UI */,
+				OBJ_40 /* Utilities */,
+				OBJ_42 /* DispatchQueue */,
+				OBJ_44 /* Then */,
 			);
 			name = "SiYuanKit 1.2.32";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_12 /* YSOperations */ = {
+		OBJ_17 /* YSOperations */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* Conditions */,
-				OBJ_15 /* Observers */,
-				OBJ_18 /* Operation Queue */,
-				OBJ_21 /* YSOperations */,
+				OBJ_18 /* Conditions */,
+				OBJ_20 /* Observers */,
+				OBJ_23 /* Operation Queue */,
+				OBJ_26 /* YSOperations */,
 			);
 			name = YSOperations;
 			path = ".build/checkouts/SiYuanKit.git--103458854881732762/Sources/YSOperations";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_13 /* Conditions */ = {
+		OBJ_18 /* Conditions */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_14 /* OperationCondition.swift */,
+				OBJ_19 /* OperationCondition.swift */,
 			);
 			path = Conditions;
 			sourceTree = "<group>";
 		};
-		OBJ_15 /* Observers */ = {
+		OBJ_20 /* Observers */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_16 /* BlockObserver.swift */,
-				OBJ_17 /* OperationObserver.swift */,
+				OBJ_21 /* BlockObserver.swift */,
+				OBJ_22 /* OperationObserver.swift */,
 			);
 			path = Observers;
 			sourceTree = "<group>";
 		};
-		OBJ_18 /* Operation Queue */ = {
+		OBJ_23 /* Operation Queue */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_19 /* ExclusivityController.swift */,
-				OBJ_20 /* YSOperationQueue.swift */,
+				OBJ_24 /* ExclusivityController.swift */,
+				OBJ_25 /* YSOperationQueue.swift */,
 			);
 			path = "Operation Queue";
 			sourceTree = "<group>";
 		};
-		OBJ_21 /* YSOperations */ = {
+		OBJ_26 /* YSOperations */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_22 /* BlockOperation.swift */,
-				OBJ_23 /* YSOperation.swift */,
+				OBJ_27 /* BlockOperation.swift */,
+				OBJ_28 /* YSOperation.swift */,
 			);
 			path = YSOperations;
 			sourceTree = "<group>";
 		};
-		OBJ_24 /* UI */ = {
+		OBJ_29 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_25 /* Extension */,
-				OBJ_27 /* StaticTableView */,
+				OBJ_30 /* Extension */,
+				OBJ_32 /* StaticTableView */,
 			);
 			name = UI;
 			path = ".build/checkouts/SiYuanKit.git--103458854881732762/Sources/UI";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_25 /* Extension */ = {
+		OBJ_30 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_26 /* UIViewExtensions.swift */,
+				OBJ_31 /* UIViewExtensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		OBJ_27 /* StaticTableView */ = {
+		OBJ_32 /* StaticTableView */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_28 /* Row.swift */,
-				OBJ_29 /* Section.swift */,
-				OBJ_30 /* TableViewManager.swift */,
-				OBJ_31 /* Cells */,
+				OBJ_33 /* Row.swift */,
+				OBJ_34 /* Section.swift */,
+				OBJ_35 /* TableViewManager.swift */,
+				OBJ_36 /* Cells */,
 			);
 			path = StaticTableView;
 			sourceTree = "<group>";
 		};
-		OBJ_31 /* Cells */ = {
+		OBJ_36 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_32 /* ItemCell.swift */,
-				OBJ_33 /* StaticCellType.swift */,
-				OBJ_34 /* Value1Cell.swift */,
+				OBJ_37 /* ItemCell.swift */,
+				OBJ_38 /* StaticCellType.swift */,
+				OBJ_39 /* Value1Cell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		OBJ_35 /* Utilities */ = {
+		OBJ_40 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_36 /* Time.swift */,
+				OBJ_41 /* Time.swift */,
 			);
 			name = Utilities;
 			path = ".build/checkouts/SiYuanKit.git--103458854881732762/Sources/Utilities";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_37 /* DispatchQueue */ = {
+		OBJ_42 /* DispatchQueue */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_38 /* GCDQueue.swift */,
+				OBJ_43 /* GCDQueue.swift */,
 			);
 			name = DispatchQueue;
 			path = ".build/checkouts/SiYuanKit.git--103458854881732762/Sources/DispatchQueue";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_39 /* Then */ = {
+		OBJ_44 /* Then */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_40 /* Promise.swift */,
+				OBJ_45 /* Promise.swift */,
 			);
 			name = Then;
 			path = ".build/checkouts/SiYuanKit.git--103458854881732762/Sources/Then";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_41 /* Products */ = {
+		OBJ_46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_42 /* YSOperations.framework */,
-				OBJ_43 /* UI.framework */,
-				OBJ_44 /* Utilities.framework */,
-				OBJ_45 /* DispatchQueue.framework */,
-				OBJ_46 /* Then.framework */,
-				OBJ_47 /* EbloServer */,
+				OBJ_47 /* YSOperations.framework */,
+				OBJ_48 /* UI.framework */,
+				OBJ_49 /* Utilities.framework */,
+				OBJ_50 /* DispatchQueue.framework */,
+				OBJ_51 /* Then.framework */,
+				OBJ_52 /* Ji.framework */,
+				OBJ_53 /* EbloServer */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -302,7 +347,7 @@
 				OBJ_7 /* Sources */,
 				OBJ_9 /* Tests */,
 				OBJ_10 /* Dependencies */,
-				OBJ_41 /* Products */,
+				OBJ_46 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -325,12 +370,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_48 /* YSOperations */ = {
+		OBJ_101 /* Ji */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_49 /* Build configuration list for PBXNativeTarget "YSOperations" */;
+			buildConfigurationList = OBJ_102 /* Build configuration list for PBXNativeTarget "Ji" */;
 			buildPhases = (
-				OBJ_52 /* Sources */,
-				OBJ_60 /* Frameworks */,
+				OBJ_105 /* Sources */,
+				OBJ_109 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ji;
+			productName = Ji;
+			productReference = OBJ_52 /* Ji.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_110 /* EbloServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_111 /* Build configuration list for PBXNativeTarget "EbloServer" */;
+			buildPhases = (
+				OBJ_114 /* Sources */,
+				OBJ_116 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_123 /* PBXTargetDependency */,
+				OBJ_124 /* PBXTargetDependency */,
+				OBJ_125 /* PBXTargetDependency */,
+				OBJ_126 /* PBXTargetDependency */,
+				OBJ_127 /* PBXTargetDependency */,
+				OBJ_128 /* PBXTargetDependency */,
+			);
+			name = EbloServer;
+			productName = EbloServer;
+			productReference = OBJ_53 /* EbloServer */;
+			productType = "com.apple.product-type.tool";
+		};
+		OBJ_54 /* YSOperations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_55 /* Build configuration list for PBXNativeTarget "YSOperations" */;
+			buildPhases = (
+				OBJ_58 /* Sources */,
+				OBJ_66 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,15 +421,15 @@
 			);
 			name = YSOperations;
 			productName = YSOperations;
-			productReference = OBJ_42 /* YSOperations.framework */;
+			productReference = OBJ_47 /* YSOperations.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_61 /* UI */ = {
+		OBJ_67 /* UI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_62 /* Build configuration list for PBXNativeTarget "UI" */;
+			buildConfigurationList = OBJ_68 /* Build configuration list for PBXNativeTarget "UI" */;
 			buildPhases = (
-				OBJ_65 /* Sources */,
-				OBJ_73 /* Frameworks */,
+				OBJ_71 /* Sources */,
+				OBJ_79 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -354,15 +437,15 @@
 			);
 			name = UI;
 			productName = UI;
-			productReference = OBJ_43 /* UI.framework */;
+			productReference = OBJ_48 /* UI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_74 /* Utilities */ = {
+		OBJ_80 /* Utilities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_75 /* Build configuration list for PBXNativeTarget "Utilities" */;
+			buildConfigurationList = OBJ_81 /* Build configuration list for PBXNativeTarget "Utilities" */;
 			buildPhases = (
-				OBJ_78 /* Sources */,
-				OBJ_80 /* Frameworks */,
+				OBJ_84 /* Sources */,
+				OBJ_86 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -370,15 +453,15 @@
 			);
 			name = Utilities;
 			productName = Utilities;
-			productReference = OBJ_44 /* Utilities.framework */;
+			productReference = OBJ_49 /* Utilities.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_81 /* DispatchQueue */ = {
+		OBJ_87 /* DispatchQueue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_82 /* Build configuration list for PBXNativeTarget "DispatchQueue" */;
+			buildConfigurationList = OBJ_88 /* Build configuration list for PBXNativeTarget "DispatchQueue" */;
 			buildPhases = (
-				OBJ_85 /* Sources */,
-				OBJ_87 /* Frameworks */,
+				OBJ_91 /* Sources */,
+				OBJ_93 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -386,15 +469,15 @@
 			);
 			name = DispatchQueue;
 			productName = DispatchQueue;
-			productReference = OBJ_45 /* DispatchQueue.framework */;
+			productReference = OBJ_50 /* DispatchQueue.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_88 /* Then */ = {
+		OBJ_94 /* Then */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_89 /* Build configuration list for PBXNativeTarget "Then" */;
+			buildConfigurationList = OBJ_95 /* Build configuration list for PBXNativeTarget "Then" */;
 			buildPhases = (
-				OBJ_92 /* Sources */,
-				OBJ_94 /* Frameworks */,
+				OBJ_98 /* Sources */,
+				OBJ_100 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -402,29 +485,8 @@
 			);
 			name = Then;
 			productName = Then;
-			productReference = OBJ_46 /* Then.framework */;
+			productReference = OBJ_51 /* Then.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		OBJ_95 /* EbloServer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_96 /* Build configuration list for PBXNativeTarget "EbloServer" */;
-			buildPhases = (
-				OBJ_99 /* Sources */,
-				OBJ_101 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_107 /* PBXTargetDependency */,
-				OBJ_108 /* PBXTargetDependency */,
-				OBJ_109 /* PBXTargetDependency */,
-				OBJ_110 /* PBXTargetDependency */,
-				OBJ_111 /* PBXTargetDependency */,
-			);
-			name = EbloServer;
-			productName = EbloServer;
-			productReference = OBJ_47 /* EbloServer */;
-			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -442,112 +504,218 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_41 /* Products */;
+			productRefGroup = OBJ_46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_48 /* YSOperations */,
-				OBJ_61 /* UI */,
-				OBJ_74 /* Utilities */,
-				OBJ_81 /* DispatchQueue */,
-				OBJ_88 /* Then */,
-				OBJ_95 /* EbloServer */,
+				OBJ_54 /* YSOperations */,
+				OBJ_67 /* UI */,
+				OBJ_80 /* Utilities */,
+				OBJ_87 /* DispatchQueue */,
+				OBJ_94 /* Then */,
+				OBJ_101 /* Ji */,
+				OBJ_110 /* EbloServer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_52 /* Sources */ = {
+		OBJ_105 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_53 /* OperationCondition.swift in Sources */,
-				OBJ_54 /* BlockObserver.swift in Sources */,
-				OBJ_55 /* OperationObserver.swift in Sources */,
-				OBJ_56 /* ExclusivityController.swift in Sources */,
-				OBJ_57 /* YSOperationQueue.swift in Sources */,
-				OBJ_58 /* BlockOperation.swift in Sources */,
-				OBJ_59 /* YSOperation.swift in Sources */,
+				OBJ_106 /* Ji-SPM.swift in Sources */,
+				OBJ_107 /* JiHelper-SPM.swift in Sources */,
+				OBJ_108 /* JiNode-SPM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_65 /* Sources */ = {
+		OBJ_114 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_66 /* UIViewExtensions.swift in Sources */,
-				OBJ_67 /* Row.swift in Sources */,
-				OBJ_68 /* Section.swift in Sources */,
-				OBJ_69 /* TableViewManager.swift in Sources */,
-				OBJ_70 /* ItemCell.swift in Sources */,
-				OBJ_71 /* StaticCellType.swift in Sources */,
-				OBJ_72 /* Value1Cell.swift in Sources */,
+				OBJ_115 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_78 /* Sources */ = {
+		OBJ_58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_79 /* Time.swift in Sources */,
+				OBJ_59 /* OperationCondition.swift in Sources */,
+				OBJ_60 /* BlockObserver.swift in Sources */,
+				OBJ_61 /* OperationObserver.swift in Sources */,
+				OBJ_62 /* ExclusivityController.swift in Sources */,
+				OBJ_63 /* YSOperationQueue.swift in Sources */,
+				OBJ_64 /* BlockOperation.swift in Sources */,
+				OBJ_65 /* YSOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_85 /* Sources */ = {
+		OBJ_71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_86 /* GCDQueue.swift in Sources */,
+				OBJ_72 /* UIViewExtensions.swift in Sources */,
+				OBJ_73 /* Row.swift in Sources */,
+				OBJ_74 /* Section.swift in Sources */,
+				OBJ_75 /* TableViewManager.swift in Sources */,
+				OBJ_76 /* ItemCell.swift in Sources */,
+				OBJ_77 /* StaticCellType.swift in Sources */,
+				OBJ_78 /* Value1Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_92 /* Sources */ = {
+		OBJ_84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_93 /* Promise.swift in Sources */,
+				OBJ_85 /* Time.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_99 /* Sources */ = {
+		OBJ_91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_100 /* main.swift in Sources */,
+				OBJ_92 /* GCDQueue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_99 /* Promise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_107 /* PBXTargetDependency */ = {
+		OBJ_123 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_48 /* YSOperations */;
-			targetProxy = 0E2FB4101EA2BDDC0057C3B2 /* PBXContainerItemProxy */;
+			target = OBJ_54 /* YSOperations */;
+			targetProxy = 0E2FB41A1EA2C58A0057C3B2 /* PBXContainerItemProxy */;
 		};
-		OBJ_108 /* PBXTargetDependency */ = {
+		OBJ_124 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_61 /* UI */;
-			targetProxy = 0E2FB4111EA2BDDC0057C3B2 /* PBXContainerItemProxy */;
+			target = OBJ_67 /* UI */;
+			targetProxy = 0E2FB41B1EA2C58A0057C3B2 /* PBXContainerItemProxy */;
 		};
-		OBJ_109 /* PBXTargetDependency */ = {
+		OBJ_125 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_74 /* Utilities */;
-			targetProxy = 0E2FB4121EA2BDDC0057C3B2 /* PBXContainerItemProxy */;
+			target = OBJ_80 /* Utilities */;
+			targetProxy = 0E2FB41C1EA2C58A0057C3B2 /* PBXContainerItemProxy */;
 		};
-		OBJ_110 /* PBXTargetDependency */ = {
+		OBJ_126 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_81 /* DispatchQueue */;
-			targetProxy = 0E2FB4131EA2BDDC0057C3B2 /* PBXContainerItemProxy */;
+			target = OBJ_87 /* DispatchQueue */;
+			targetProxy = 0E2FB41D1EA2C58A0057C3B2 /* PBXContainerItemProxy */;
 		};
-		OBJ_111 /* PBXTargetDependency */ = {
+		OBJ_127 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_88 /* Then */;
-			targetProxy = 0E2FB4141EA2BDDC0057C3B2 /* PBXContainerItemProxy */;
+			target = OBJ_94 /* Then */;
+			targetProxy = 0E2FB41E1EA2C58A0057C3B2 /* PBXContainerItemProxy */;
+		};
+		OBJ_128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_101 /* Ji */;
+			targetProxy = 0E2FB41F1EA2C58A0057C3B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		OBJ_103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CLibXML2.git-5012515159225181376",
+				);
+				INFOPLIST_FILE = EbloServer.xcodeproj/Ji_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Ji;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Ji;
+			};
+			name = Debug;
+		};
+		OBJ_104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CLibXML2.git-5012515159225181376",
+				);
+				INFOPLIST_FILE = EbloServer.xcodeproj/Ji_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Ji;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Ji;
+			};
+			name = Release;
+		};
+		OBJ_112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CLibXML2.git-5012515159225181376",
+				);
+				INFOPLIST_FILE = EbloServer.xcodeproj/EbloServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = EbloServer;
+			};
+			name = Debug;
+		};
+		OBJ_113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CLibXML2.git-5012515159225181376",
+				);
+				INFOPLIST_FILE = EbloServer.xcodeproj/EbloServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = EbloServer;
+			};
+			name = Release;
+		};
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -592,7 +760,7 @@
 			};
 			name = Release;
 		};
-		OBJ_50 /* Debug */ = {
+		OBJ_56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -613,7 +781,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_51 /* Release */ = {
+		OBJ_57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -634,7 +802,7 @@
 			};
 			name = Release;
 		};
-		OBJ_63 /* Debug */ = {
+		OBJ_69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -655,7 +823,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_64 /* Release */ = {
+		OBJ_70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -676,7 +844,7 @@
 			};
 			name = Release;
 		};
-		OBJ_76 /* Debug */ = {
+		OBJ_82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -697,7 +865,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_77 /* Release */ = {
+		OBJ_83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -718,7 +886,7 @@
 			};
 			name = Release;
 		};
-		OBJ_83 /* Debug */ = {
+		OBJ_89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -739,7 +907,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_84 /* Release */ = {
+		OBJ_90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -760,7 +928,7 @@
 			};
 			name = Release;
 		};
-		OBJ_90 /* Debug */ = {
+		OBJ_96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -781,7 +949,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_91 /* Release */ = {
+		OBJ_97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -799,48 +967,30 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGET_NAME = Then;
-			};
-			name = Release;
-		};
-		OBJ_97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = EbloServer.xcodeproj/EbloServer_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				TARGET_NAME = EbloServer;
-			};
-			name = Debug;
-		};
-		OBJ_98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = EbloServer.xcodeproj/EbloServer_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				TARGET_NAME = EbloServer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		OBJ_102 /* Build configuration list for PBXNativeTarget "Ji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_103 /* Debug */,
+				OBJ_104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_111 /* Build configuration list for PBXNativeTarget "EbloServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_112 /* Debug */,
+				OBJ_113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		OBJ_2 /* Build configuration list for PBXProject "EbloServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -850,56 +1000,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_49 /* Build configuration list for PBXNativeTarget "YSOperations" */ = {
+		OBJ_55 /* Build configuration list for PBXNativeTarget "YSOperations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_50 /* Debug */,
-				OBJ_51 /* Release */,
+				OBJ_56 /* Debug */,
+				OBJ_57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_62 /* Build configuration list for PBXNativeTarget "UI" */ = {
+		OBJ_68 /* Build configuration list for PBXNativeTarget "UI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_63 /* Debug */,
-				OBJ_64 /* Release */,
+				OBJ_69 /* Debug */,
+				OBJ_70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_75 /* Build configuration list for PBXNativeTarget "Utilities" */ = {
+		OBJ_81 /* Build configuration list for PBXNativeTarget "Utilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_76 /* Debug */,
-				OBJ_77 /* Release */,
+				OBJ_82 /* Debug */,
+				OBJ_83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_82 /* Build configuration list for PBXNativeTarget "DispatchQueue" */ = {
+		OBJ_88 /* Build configuration list for PBXNativeTarget "DispatchQueue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_83 /* Debug */,
-				OBJ_84 /* Release */,
+				OBJ_89 /* Debug */,
+				OBJ_90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_89 /* Build configuration list for PBXNativeTarget "Then" */ = {
+		OBJ_95 /* Build configuration list for PBXNativeTarget "Then" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_90 /* Debug */,
-				OBJ_91 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_96 /* Build configuration list for PBXNativeTarget "EbloServer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_97 /* Debug */,
-				OBJ_98 /* Release */,
+				OBJ_96 /* Debug */,
+				OBJ_97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_48"
+               BlueprintIdentifier = "OBJ_54"
                BuildableName = "YSOperations.framework"
                BlueprintName = "YSOperations"
                ReferencedContainer = "container:EbloServer.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_61"
+               BlueprintIdentifier = "OBJ_67"
                BuildableName = "UI.framework"
                BlueprintName = "UI"
                ReferencedContainer = "container:EbloServer.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_74"
+               BlueprintIdentifier = "OBJ_80"
                BuildableName = "Utilities.framework"
                BlueprintName = "Utilities"
                ReferencedContainer = "container:EbloServer.xcodeproj">
@@ -56,7 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_81"
+               BlueprintIdentifier = "OBJ_87"
                BuildableName = "DispatchQueue.framework"
                BlueprintName = "DispatchQueue"
                ReferencedContainer = "container:EbloServer.xcodeproj">
@@ -70,7 +70,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_88"
+               BlueprintIdentifier = "OBJ_94"
                BuildableName = "Then.framework"
                BlueprintName = "Then"
                ReferencedContainer = "container:EbloServer.xcodeproj">
@@ -84,7 +84,21 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_95"
+               BlueprintIdentifier = "OBJ_101"
+               BuildableName = "Ji.framework"
+               BlueprintName = "Ji"
+               ReferencedContainer = "container:EbloServer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_110"
                BuildableName = "EbloServer"
                BlueprintName = "EbloServer"
                ReferencedContainer = "container:EbloServer.xcodeproj">
@@ -115,7 +129,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_48"
+            BlueprintIdentifier = "OBJ_54"
             BuildableName = "YSOperations.framework"
             BlueprintName = "YSOperations"
             ReferencedContainer = "container:EbloServer.xcodeproj">
