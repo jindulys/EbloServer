@@ -8,9 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
-
-let testCompany = BlogParserTest(urlString: "test")
+let testCompany = BlogParserTest(urlString: "https://engineeringblog.yelp.com/",
+                                titleXPath: "//article//h3//a",
+                                nextPageXPath: "nil",
+                                basedOnBaseURL: true)
 testCompany.parse()
-
-
