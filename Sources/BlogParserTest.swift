@@ -13,7 +13,7 @@ import Kanna
 public class BlogParserTest {
   
   /// The string to parse.
-  public let urlString: String
+  public var urlString: String
   
   /// XPath to article title.
   public let titleXPath: String
@@ -28,7 +28,10 @@ public class BlogParserTest {
   private var articles: [String] = []
   
   /// The maximum depth for blog pagination.
-  private let maxDepth: Int = 3
+  private let maxDepth: Int = 100
+  
+  /// Current depth has processed.
+  private var currentDepth: Int = 0
   
   init(urlString: String,
        titleXPath: String,
@@ -41,27 +44,70 @@ public class BlogParserTest {
   }
   
   /// Parse this company's blog.
-  // TODO(simonli): Implement
   public func parse() {
-    // 1. Find and print all title in current page.
-    parse(self.titleXPath) { title in
-      print(title)
-    }
+    parse(url: self.urlString)
+    print("Parse Finished, total found \(self.articles.count) aritcles")
   }
 
   // MARK: Priave
-  /// Parse `xPath`, with self.urlString.
-  private func parse(_ xPath: String, execute:(String) -> ()) {
-    guard let url = URL(string: self.urlString) else {
+  /// Parse a URL.
+  public func parse(url: String) {
+    if self.currentDepth < maxDepth {
+    } else {
+      return
+    }
+    
+    // 1. Find and print all title in current page.
+    parse(url: url, xPath: self.titleXPath) { title in
+      articles.append(title)
+    }
+
+    self.currentDepth += 1
+
+    parse(url: url, xPath: self.nextPageXPath) { nextPage in
+      let toBeParseURLString =
+          self.basedOnBaseURL ? self.urlString.appendTrimmedRepeatedElementString(nextPage) : nextPage
+      self.parse(url: toBeParseURLString)
+    }
+  }
+  
+  /// Parse `xPath`, with url.
+  private func parse(url: String, xPath: String, execute:(String) -> ()) {
+    guard let url = URL(string: url),
+      let doc = HTML(url: url, encoding: .utf8) else {
       print("Invalid url")
       return
     }
-    if let doc = HTML(url: url, encoding: .utf8) {
-      for title in doc.xpath(xPath) {
-        if let result = title.text {
-          execute(result)
-        }
+    for title in doc.xpath(xPath) {
+      if let result = title.text {
+        execute(result)
       }
     }
+  }
+}
+
+// TODO(simonli): To remove.
+extension String {
+  func appendTrimmedRepeatedElementString(_ sec: String) -> String {
+    if self.characters.count == 0 {
+      return sec
+    }
+    if sec.characters.count == 0 {
+      return self
+    }
+    var potentialRepeatedEndIndex = 0
+    var longestCommonPartIndex = 0
+    while potentialRepeatedEndIndex < sec.characters.count {
+      potentialRepeatedEndIndex += 1
+      let currentPrefix = String(sec.characters.prefix(potentialRepeatedEndIndex))
+      if !self.contains(currentPrefix) {
+        break
+      }
+      if self.hasSuffix(currentPrefix) {
+        longestCommonPartIndex = potentialRepeatedEndIndex
+      }
+    }
+    let fixed = String(sec.characters.dropFirst(longestCommonPartIndex))
+    return self + fixed
   }
 }
