@@ -4,6 +4,7 @@ ServerSide code for Eblo
 To Run this project, download this project then
 
          swift package reset
+         swift package update
          swift package generate-xcodeproj
 
 Do whatever you want. then run.
