@@ -8,6 +8,7 @@
 
 import Foundation
 import Kanna
+import Utilities
 
 /// This is a class used for parse a url.
 public class BlogParserTest {
@@ -83,31 +84,5 @@ public class BlogParserTest {
         execute(result)
       }
     }
-  }
-}
-
-// TODO(simonli): To remove.
-extension String {
-  func appendTrimmedRepeatedElementString(_ sec: String) -> String {
-    if self.characters.count == 0 {
-      return sec
-    }
-    if sec.characters.count == 0 {
-      return self
-    }
-    var potentialRepeatedEndIndex = 0
-    var longestCommonPartIndex = 0
-    while potentialRepeatedEndIndex < sec.characters.count {
-      potentialRepeatedEndIndex += 1
-      let currentPrefix = String(sec.characters.prefix(potentialRepeatedEndIndex))
-      if !self.contains(currentPrefix) {
-        break
-      }
-      if self.hasSuffix(currentPrefix) {
-        longestCommonPartIndex = potentialRepeatedEndIndex
-      }
-    }
-    let fixed = String(sec.characters.dropFirst(longestCommonPartIndex))
-    return self + fixed
   }
 }
